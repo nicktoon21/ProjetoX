@@ -1,15 +1,26 @@
+body{
+	margin: 5px;
+	font:23px Arial, Helvetica, sans-serif;
+}
+.Logo {
+	display: inline;
+	clear: right;
+}
+
+.Logo img{
+	margin-left:100px;
+}
+
 .Menu{
-	position: absolute;
-	left:1200px;
-	top: 70px;
+	display: inline;
+	float: right;
+	margin-right: 190px;
+	padding-top: 80px; 
 
 }
-.Logo img{
-	position: absolute;
-	left:90px;
-	top: 30px;
-	max-width:200px;
-    max-height:150px;
-	width: auto;
-	height: auto;
+a{
+	color: #A3A2B3;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
 }
