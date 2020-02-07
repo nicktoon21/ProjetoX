@@ -2,17 +2,48 @@ body{
 	margin: 5px;
 	font:23px Arial, Helvetica, sans-serif;
 }
+
 .Logo {
-	display: inline;
-	clear: right;
+	display: inline-block;
+	float: left;
+}
+.Whatsapp{
+	display: inline-block;
+}
+.Whatsapp::before {
+	content:"";
+	background-image: url(https://lh3.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN);
+	background-size: 26px;
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+}
+.dados {
+	float: right;
+	margin-left: 4px;
+}
+.legenda {
+	font: Helvética, 'Futura',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1;
+}
+.numero{
+	font-family: 'Cairo',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1;
 }
 
-.Logo img{
+
+/*.Logo img{
 	margin-left:100px;
 }
-
 .Menu{
-	display: inline;
+	display: inline-block;
 	float: right;
 	margin-right: 190px;
 	padding-top: 80px; 
@@ -24,3 +55,4 @@ a{
 	font-weight: bold;
 	padding: 5px;
 }
+*/
